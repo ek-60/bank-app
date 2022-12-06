@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "./card";
 import Nav from "./nav";
 
 function LoggedInPage() {
@@ -14,6 +15,7 @@ function LoggedInPage() {
             Balance: 100$
           </p>
         </div>
+        <Card />
       </div>
     </div>
   );

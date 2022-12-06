@@ -1,5 +1,4 @@
 import React from "react";
-import LoggedInPage from "./components/loggedInPage/loggedInPage";
 import Main from "./components/loginPage/main";
 
 function App() {

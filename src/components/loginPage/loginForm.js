@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, Outlet } from "react-router-dom";
 
 function Login() {
   return (
@@ -28,9 +29,10 @@ function Login() {
       </div>
       <div className="flex items-center justify-center">
         <button className="w-32 h-14 p-2 rounded-lg bg-blue-400 text-xl uppercase font-bold tracking-wide">
-          login
+          <Link to="/page">login</Link>
         </button>
       </div>
+      <Outlet />
     </div>
   );
 }
