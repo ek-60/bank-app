@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Login from "./login";
-import SignUp from "./signUp";
+import LoginForm from "./signUpForm";
+import SignUpForm from "./signUpForm";
 
 function Main() {
   const [showLogin, setShowLogin] = useState(true);
@@ -47,8 +47,8 @@ function Main() {
           </p>
         </button>
       </div>
-      {showLogin && <Login />}
-      {showSign && <SignUp />}
+      {showLogin && <LoginForm />}
+      {showSign && <SignUpForm />}
     </div>
   );
 }
