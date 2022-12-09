@@ -3,18 +3,13 @@ import React from "react";
 function SignUp() {
   return (
     <div className="flex flex-col justify-evenly w-1/3 h-96">
-      {/* <div className="flex flex-col items-center">
-        <h1 className="text-white text-7xl font-bold tracking-wider uppercase">
-          Sign Up
-        </h1>
-      </div> */}
       <div className="flex flex-col items-center gap-2">
         <div className="flex flex-row items-center h-16 p-2 gap-6">
           <p className="w-32 text-white text-xl font-semibold">First name:</p>
           <input
             type="text"
             className="w-72 text-xl p-2 bg-transparent text-white focus:text-white focus:border-b-red-400 focus:border-b-4 focus:outline-none"
-            placeholder="Your'r first name.."
+            placeholder="Your first name.."
           ></input>
         </div>
         <div className="flex flex-row items-center h-16 p-2 gap-6">
@@ -22,7 +17,7 @@ function SignUp() {
           <input
             type="text"
             className="w-72 text-xl p-2 bg-transparent text-white focus:text-white focus:border-b-red-400 focus:border-b-4 focus:outline-none"
-            placeholder="You'r surename.."
+            placeholder="Your surename.."
           ></input>
         </div>
       </div>
